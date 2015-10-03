@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>.:: MOREL ::.</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/icon.css">
+	
+	<!-- Main Script -->
+	<script src="./js/jquery-1.10.1.min.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/custom.js"></script>
+	
+	<!-- Flex-slider Files -->
+	<link rel="stylesheet" href="./css/flexslider.css">
+	<script src="./js/jquery.flexslider-min.js"></script>
+		
+	<!-- IE6-8 support of HTML5 elements --> <!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Top Left Sliding Navigation Bar -->
+	<div class="sliding-nav">
+		<!-- This part is for top left navigation -->		
+		<h1>Sliding Nav</h1>
+		<ul id="toggle-nav">
+			<li class="active">
+				<a href="#">HOME</a>
+			</li>
+
+			<li>
+				<a href="#">ABOUT US</a>
+				
+				<ul>
+					<li>
+						<a href="#">OUR TEAM</a>
+					</li>
+					<li>
+						<a href="#">OUR SERVICES</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">PORTFOLIO</a>
+				
+				<ul>
+					<li>
+						<a href="#">WEB DESIGN</a>
+					</li>
+
+					<li>
+						<a href="#">GRAPHIC DESIGN</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">CONTACT</a>
+			</li>
+		</ul>
+	</div><!-- End of sliding-nav -->
+	
+	
+	
+	<!-- Main Page Area -->
+	<div class="page homepage header-height">
+		<div class="main-wrapper">
+			<!-- Header Navigation and other btn -->
+			<div class="header-wrapper">
+				<header class="header">
+					<div class="toggle-nav" id="bars"><div class="left-nav-btn"><img src="./images/left-nav-logo.png" alt="Menu"></div></div>
+					<h1 class="logo"><a href="#"><img src="./images/logo.png" alt="Morel"></a></h1>
+					<nav class="navemenu">
+						<ul>
+							<li><a href="#">HIFI STEREO </a></li>
+							<li class="active"><a href="#">HOME THEATER </a></li>
+							<li><a href="#">CUSTOM INTEGRATION </a></li>
+							<li><a href="#">CAR AUDIO</a></li>
+							<li><a href="#">RAW DRIVERS </a></li>
+							<li><a href="#">DEALER LOCATOR </a></li>
+							<li><a href="#">ABOUT US   </a></li>
+							<li><a href="#">CONTACT US  </a></li>
+						</ul>
+					</nav>
+					
+					<ul class="header-right">
+						<li class="hide_in_mobile"><a href="#"><span class="icon-user"></span></a></li>
+						<li><a href="#"><span class="icon-cart"></span></a></li>
+						<li class="hide_in_mobile"><a href="#"><span class="icon-search"></span></a></li>
+					</ul>
+				</header><!-- end of header-->
+			</div><!-- end of header-wrapper-->
+		
+		
+			<!-- Main content starts here -->
+			<div class="wrapper-content bg-gray prod-nav-height">
+				<div class="main-content-area device-pad-xs">
+					<div class="row">
+						<div class="grid-one-half device-margin-xs">
+							
+							<!-- Product image changer -->
+							<div id="prod-slider-wrapper">
+								<div id="prod-slider">
+									<div class="prod-sp"><img src="./images/prodd-1.jpg" alt=""></div>
+									<div class="prod-sp"><img src="./images/prodd-2.jpg" alt=""></div>
+									<div class="prod-sp"><img src="./images/prodd-3.jpg" alt=""></div>
+								</div>
+								<!-- Changer button -->
+								<div id="prod-button-previous"></div>
+								<div id="prod-button-next"></div>
+							</div><!-- end of prod-slider-wrapper-->
+							
+						</div>
+						<div class="grid-one-half">
+							<h5><span><b>OCTAVE SIGNATURE</b></span></h5>
+							<h5 class="text-n">HOME THEATER</h5>
+							<p class="sml">The Octave Signature Series brings you the thrill, the acoustics and the dynamics of live performance, in a stunning architectural design that appeals to connoisseurs of sublime sound and aesthetics alike. Leveraging Morel's latest achievements in acoustic technology, the all-new Octave Signature Series brings every instrument, voice and effect to life with a clarity and transparency that transform your musical and cinematic experiences into true magic.</p>
+							<div class="product-color-picker">
+								<div class="product-color" id="c-black"></div>
+								<div class="product-color" id="c-white"></div>
+								<div class="product-color" id="c-violet"></div>
+								<div class="product-color" id="c-blue"></div>
+								<div class="product-color" id="c-red"></div>
+							</div>
+							<p class="p-price">$765</p>
+							<br>
+							<a class="btn-primary btn-cart" href="#">ADD TO CART</a>
+							<a class="btn-primary btn-cmp" href="#">COMPARE</a>
+						</div>
+					</div><!-- end of row-->
+				</div>
+			</div><!-- end of wrapper-content-->
+			
+			<div class="wrapper-content bg-gray fixed-prod-nav">
+				<div class="main-content-area btn-area">
+					<ul class="product-menu">
+						<li><a class="btn-back show-at-fixed" href="#">BACK</a></li>
+						<li><a href="#thestory">ABOUT THE PRODUCTS</a></li>
+						<li><a href="#specification">SPECS&FEATURES</a></li>
+						<li>
+							<a href="">REVIEWS</a>
+							<span class="icon-icon-ios7-arrow-down tl-btn2"></span>
+						</li>
+						<li><a href="#addproduct">RELATED PRODUCTS</a></li>
+						<li><a class="btn-addtocart show-at-fixed" href="#"><b>ADD TO CART</b></a></li>
+					</ul>
+				</div>
+				
+				<div class="wrapper-prod-sub-nav">
+					<div class="prod-sub-nav">
+						<div class="one-four">
+							<h4><b>PDF REVIEWS</b></h4>
+							<ul>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 1</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 2</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 3</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 4</a>
+								</li>
+							</ul>
+						</div>
+						<div class="one-four">
+							<h4><b>PDF REVIEWS</b></h4>
+							<ul>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 1</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 2</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 3</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 4</a>
+								</li>
+							</ul>
+						</div>	
+						<div class="one-four">
+							<h4><b>PDF REVIEWS</b></h4>
+							<ul>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 1</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 2</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 3</a>
+								</li>
+								<li>
+									<span>My Menu</span>
+									<a href="">My Link 4</a>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+			
+			<span class="prodanchor" id="thestory"></span>
+			<div class="wrapper-content">
+				<div class="main-content-area">
+					<div class="row">
+						<div class="md-col-6 device-pad-xs">
+							<h5 class="text-n">THE STORY</h5>
+							<P class="sml">Retaining the Octave's sleek, attractive lines, contemporary design and elegantly chic look, the Signature Series introduces newly engineered innovations in handcrafted Morel drivers for true audiophile-grade 20hz-20khz coverage.</P>
+							<a href="" class="btn-play sml">The Octave Signature Series<br>on Youtube</a>
+							<br>
+							<P class="sml"><strong>STREAMLINED DESIGN</strong><br>
+							The Octave Signature Series is fully modular, with matching bookshelf, center and subwoofer speakers, to impeccably perform double service on both two-channel stereo and multi-channel home cinema. A dedicated subwoofer amplifier and minimalist solid metal stands round out the lineup.</p>
+							<P class="sml"><strong>LIGHTER, STRONGER, AND MORE COMFORTABLE</strong><br>
+							The Signature Series is defined by enhancements to the tweeter and woofer drivers and crossover networks, all painstakingly developed and refined in the Morel labs. These technical achievements have further distilled Morel's unique acoustic qualities across the entire sound spectrum, producing a realism that has to be heard to be believed. aluminum coils that are three times larger than conventional speakers, powerful and compact neodymium and hybrid magnet motors, handcoated Acuflex&trade; silk-dome tweeters and the most advanced, quality materials.</p>
+							<a href="" class="btn-hifi"></a>
+							<a href="" class="btn-hifi"></a>
+						</div>
+						<div class="md-col-6 device-pad-xs">
+							<img src="./images/story-image.jpg" class="aligncenter">
+						</div>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+			
+			<span class="prodanchor" id="specification"></span>
+			<div class="wrapper-content bg-gray">
+				<div class="main-content-area">
+					<div class="row">
+						<div class="md-col-6">
+							<img src="./images/specs.jpg" class="aligncenter">
+						</div>
+						<div class="md-col-6 device-pad-xs">
+							<h5 class="text-n">SPECS & FEATURES</h5>
+							<p class="sml">Volume Limiting: 85 dB maximum volume - patent pending<br>
+							Passive Noise Attenuation: Up to 33.4 dB<br>
+							Frequency Response: 20-20,000 Hz<br>
+							Drivers: 40 mm, moving coil dynamic type<br>
+							Impedance: 32 &Omega;<br>
+							Cord: 40" (1,016 mm) premium twin-lead cables<br>
+							Plug: 90 degree stereo 1/8&otimes; (3.5 mm) gold-plated with offset to allow use when protective phone cover is installed (patent pending)</p>
+							
+							<P class="sml"><strong>DOWNLOADS</strong></p>
+							<a href="" class="btn-pdf sml">Download Specs & features</a>
+							<div class="clearfix5"></div>
+							<a href="" class="btn-pdf sml">Download manual</a>
+							<div class="clearfix5"></div>
+							<a href="" class="btn-pdf sml">Download catalogue</a>
+						</div>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+			
+			<span class="prodanchor" id="addproduct"></span>
+			<div class="wrapper-content">
+				<div class="main-content-area device-pad-xs">
+					<div class="row">
+						<h5 class="text-n center">ADDITIONAL PRODUCTS</h5>
+						<br>
+						<div class="grid-one-third">
+							<img src="images/cat-1.jpg" alt="" />
+							<div class="cat-description">
+								<h4 class="text-caps"><b>Lorem Ipsum is simply</b></h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+						
+						<div class="grid-one-third">
+							<img src="images/cat-1.jpg" alt="" />
+							<div class="cat-description">
+								<h4 class="text-caps"><b>Lorem Ipsum is simply</b></h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+						
+						<div class="grid-one-third">
+							<img src="images/cat-1.jpg" alt="" />
+							<div class="cat-description">
+								<h4 class="text-caps"><b>Lorem Ipsum is simply</b></h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+					
+			
+			<!-- Footer Widget Area-->
+			<div class="wrapper-content footer-padding bg-black">
+				<div class="main-content-area">
+					<div class="row">
+						<div class="footer-top section-content">
+							<div class="footer-column">
+								<h3>MOREL</h3>
+								<ul class="footer-menu">
+									<li><a href="#">Hi Fi </a></li>
+									<li><a href="#">Home Theater</a></li>
+									<li><a href="#">Integrated Systems </a></li>
+									<li><a href="#">Car Audio </a></li>
+									<li><a href="#">Raw Drivers </a></li>
+								</ul>
+							</div>
+							<div class="footer-column">
+								<h3>SUPPORT</h3>
+								<ul class="footer-menu">
+									<li><a href="#">Product Comparison  </a></li>
+									<li><a href="#">Shipping / Returns</a></li>
+									<li><a href="#">Payment Security </a></li>
+									<li><a href="#">Terms &amp;amp; Conditions</a></li>
+								</ul>
+							</div>
+							<div class="footer-column">
+								<h3>INFO</h3>
+								<ul class="footer-menu">
+									<li><a href="#">News &amp;amp; Events </a></li>
+									<li><a href="#">Contact us </a></li>
+									<li><a href="#">Become a Dealer </a></li>
+									<li><a href="#">Find a Dealer</a></li>
+									<li><a href="#">Product Register </a></li>
+									<li><a href="#">Dealers download center </a></li>
+								</ul>
+							</div>
+							<div class="footer-column">
+								<h3>MOREL WORLDWIDE</h3>
+								<form class="find">
+									<input type="text" placeholder="FIND A DEALER"><submit value="&gt;" class="icon-icon-ios7-arrow-right bigg"></submit>
+								</form>
+								<h3>NEWSLETTER SIGNUP</h3>
+								<form class="signup">
+									<input type="text" placeholder="Enter your email address"><submit value="&gt;" class="icon-icon-ios7-arrow-right bigg"></submit>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+			
+			
+			<!-- Bottom Footer Area-->
+			<div class="wrapper-content footer-bottom-wrap bg-deepgray">
+				<div class="footer-content-area">
+					<div class="row">
+						<footer class="footer section-content">
+							<div class="footer-part-1">
+								<div class="footer-logo">
+									<a href="#"><img src="./images/logo-footer.png" alt="Morel"></a>
+								</div>
+								<div class="footer-link">
+									<a href="#">PRIVACY</a>
+									<a href="#">POLICY COOKIES</a>
+								</div>
+							</div>
+							<div class="social-link">
+								<a href="#"><span class="icon-facebook sl"></span></a>
+								<a href="#"><span class="icon-twitter sl"></span></a>
+								<a href="#"><span class="icon-tumblr sl"></span></a>
+								<a href="#"><span class="icon-pinterest sl"></span></a>
+								<a href="#"><span class="icon-youtube sl"></span></a>
+							</div>
+							<div class="copy">
+								<p>&copy; 2014 MOREL.COM ALL RIGHTS RESERVED</p>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</div><!-- end of wrapper-content-->
+		</div><!-- end of main-wrapper -->
+		
+		
+		<!-- Fixed Social Media Bar -->
+		<div class="fixed-social-media">
+			<div class="fsm-logo">
+				<img src="images/fsm-logo.png">
+			</div>
+			<ul>
+				<li><a href="#"><span class="icon-facebook sl"></span></a></li>
+				<li><a href="#"><span class="icon-twitter sl"></span></a></li>
+				<li><a href="#"><span class="icon-tumblr sl"></span></a></li>
+				<li><a href="#"><span class="icon-youtube sl"></span></a></li>
+			</ul>
+		</div>
+	</div><!-- end of page homepage -->
+</body>
+</html>

@@ -1,0 +1,69 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+/*======= inner content ======*/
+.flexslider .flex_centered{
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	//background:red;
+	visibility:visible;
+}
+.int_cen{height:100%; width:100%; max-width:1170px; margin:0 auto; //background:green;}
+.flex_60{height:100%; width:60%; float:left; //background:red;}
+.flex_40{height:100%; width:40%; float:right; //background:green;}
+.flex_table{display:table; height:100%;}
+.align-mid{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.flexslider img.slider_logo{
+	display:block;
+	max-width:100%;
+	width:auto;
+	position:static;
+	margin-bottom:16px;
+}
+.flexslider h1{
+	font-size:32px;
+	line-height:42px;
+	color:#FFFFFF;
+	padding-bottom:12px; 
+	font-weight:300;
+}
